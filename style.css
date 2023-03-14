@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+
+body{
+    background-color: blueviolet;
+    background-image: url(images/digital2.jpg);
+    background-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* [class*="col"]{
+    padding: 1rem;
+    background-color: rgb(140, 104, 147);
+    border: 2px solid rgb(58, 54, 54);
+    color: #fff;
+} */
+
+.mycol{
+    padding: 1rem;
+    background-color: rgb(193, 7, 230);
+    border: 2px solid rgb(193, 7, 230);
+    color: #fff;
+    background-image: url(images/digital3.jpg);
+  background-size: 40%;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+
+
+.mycol1{
+    padding: 1rem;
+    background-color: rgb(193, 7, 230);
+    border: 2px solid rgb(193, 7, 230);
+    color: #fff;
+    background-image: url(images/gray.jpg);
+  background-size: 40%;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+
+
+.img2:hover{
+    cursor: pointer;
+   
+    transform: scale(1.02);
+
+
+    filter: grayscale(100%);
+
+transition: all 1s ease;
+}
+
+.myimage{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+
+
+.myimage .myimg {
+    display: block;
+    width: 100%;
+    height:auto;
+    cursor: pointer;
+}
+
+.myimage #zoom .myimg {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.myimage #zoom:hover .myimg {
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+
+
+
+
+
+/* .slider_item img{
+    width:100%;
+    height: 600px;
+} */
+
+/* .container{
+    width: 1920px;
+    margin: auto;
+} */
+
+.owl-nav{
+    position:absolute;
+    width: 100%;
+    top:45%;
+    left: 0;
+    transform: translatey(-50%);
+    /* background: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(59, 56, 56);
+}
+
+.owl-nav button {
+    display: inline-block;
+    font-size: 100px!important;
+    /* background-color: rgb(234, 172, 172)!important; */
+}
+
+.owl-nav button:hover{
+    color: orange!important;
+
+}
+
+.owl-dots {
+    position: absolute;
+    width:100%;
+    bottom: 16px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dots button {
+    width: 11px;
+    height: 11px;
+    background-color: gray!important;
+    margin: 0 3px;
+}
+
+.owl-dots button.active {
+    background-color: orange!important;
+} 
+
+
+
+
+
+
+
+
+
